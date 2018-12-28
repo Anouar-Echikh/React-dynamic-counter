@@ -11,7 +11,7 @@ class Counter extends Component {
   }
   Time = () => {
     // 1- Convert to seconds:
-    if (this.state.time >= 86400000) {
+    if (this.props.time >= 86400000) {
       return alert("Your milliseconds number must be < 86.400.000");
     } else {
       var seconds = this.state.time / 1000;
