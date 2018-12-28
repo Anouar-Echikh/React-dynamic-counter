@@ -4,7 +4,7 @@ import "./App.css";
 
 class App extends Component {
   state = {
-    time: 53456825
+    time: 53456825 // enter a number < 86.400.000
   };
   render() {
     return (

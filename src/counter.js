@@ -5,9 +5,6 @@ import "./App.css";
 class Counter extends Component {
   constructor(props) {
     super(props);
-    this.state = {
-      time: 60212453 // enter a number < 86.400.000
-    };
   }
   Time = () => {
     // 1- Convert to seconds:
